@@ -155,14 +155,14 @@ export default function Packages() {
     ];
 
     return (
-        <section className="relative z-10 min-h-screen py-24 px-6 overflow-hidden">
+        <section className="relative z-10 min-h-screen py-16 md:py-24 px-6 overflow-hidden">
             {/* Interactive 3D Background - REMOVED to use global Visualizer */}
             {/* <div className="absolute inset-0 z-0 pointer-events-none"> ... </div> */}
 
             <div className="relative z-10 max-w-7xl mx-auto pointer-events-none">
-                <div className="text-center mb-20 pointer-events-auto">
-                    <h2 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6">Service Packages</h2>
-                    <p className="text-xl text-royal-gold max-w-2xl mx-auto uppercase tracking-widest font-medium">
+                <div className="text-center mb-16 md:mb-20 pointer-events-auto">
+                    <h2 className="text-4xl md:text-7xl font-serif font-bold text-white mb-4 md:mb-6">Service Packages</h2>
+                    <p className="text-lg md:text-xl text-royal-gold max-w-2xl mx-auto uppercase tracking-widest font-medium">
                         Curated strategies for digital excellence
                     </p>
                 </div>

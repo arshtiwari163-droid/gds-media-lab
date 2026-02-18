@@ -12,8 +12,8 @@ const TierSection = ({ title, subtitle, features, description, color, align = 'l
     return (
         <div className={`tier-section py-32 px-6 flex flex-col md:flex-row items-center gap-16 ${align === 'right' ? 'md:flex-row-reverse' : ''}`}>
             <div className="flex-1 text-center md:text-left content-col">
-                <h3 className={`text-7xl font-serif mb-6 ${color} drop-shadow-sm`}>{title}</h3>
-                <p className="text-sm uppercase tracking-[0.3em] text-white/60 mb-10 font-medium">{subtitle}</p>
+                <h3 className={`text-5xl md:text-7xl font-serif mb-4 md:mb-6 ${color} drop-shadow-sm`}>{title}</h3>
+                <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-white/60 mb-6 md:mb-10 font-medium">{subtitle}</p>
 
                 <p className="text-gray-300 leading-loose mb-10 max-w-xl text-lg font-light border-l-2 border-white/10 pl-6">
                     {description}
@@ -117,9 +117,9 @@ export default function WebDesignShowcase() {
                 </Canvas>
             </div>
             <div className="absolute inset-0 bg-black/60 pointer-events-none"></div>
-            <div className="py-20 text-center relative z-20">
-                <h2 className="text-5xl md:text-7xl font-serif font-bold text-royal-gold mb-6 drop-shadow-lg">The Collection</h2>
-                <p className="text-xl text-white max-w-2xl mx-auto uppercase tracking-widest font-medium drop-shadow-md">
+            <div className="py-20 text-center relative z-20 px-6">
+                <h2 className="text-4xl md:text-7xl font-serif font-bold text-royal-gold mb-6 drop-shadow-lg">The Collection</h2>
+                <p className="text-lg md:text-xl text-white max-w-2xl mx-auto uppercase tracking-widest font-medium drop-shadow-md">
                     Choose the canvas for your digital masterpiece
                 </p>
             </div>

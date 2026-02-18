@@ -125,20 +125,20 @@ export default function LandingHero() {
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 border rotate-45 border-royal-gold/50"></div>
                 </div>
 
-                <h1 ref={titleRef} className="text-7xl md:text-[10rem] leading-tight text-imperial-gold mb-12 z-10 tracking-wider overflow-hidden drop-shadow-[0_0_15px_rgba(212,175,55,0.6)]" style={{ fontFamily: 'Samarkan, sans-serif', textShadow: '0 0 40px rgba(212,175,55,0.4)' }}>
+                <h1 ref={titleRef} className="text-5xl md:text-[8rem] lg:text-[10rem] leading-tight text-imperial-gold mb-8 md:mb-12 z-10 tracking-wider overflow-hidden drop-shadow-[0_0_15px_rgba(212,175,55,0.6)]" style={{ fontFamily: 'Samarkan, sans-serif', textShadow: '0 0 40px rgba(212,175,55,0.4)' }}>
                     {title.split("").map((char, i) => (
                         <span key={i} className="hero-text-char inline-block opacity-0 translate-y-20 hover:text-white transition-colors duration-500 cursor-default">{char}</span>
                     ))}
                 </h1>
 
-                <div className="hero-subtitle opacity-0 max-w-4xl mx-auto relative cursor-default">
-                    <div className="flex items-center justify-center gap-6 mb-4">
-                        <div className="h-[1px] w-12 md:w-32 bg-gradient-to-r from-transparent to-royal-gold"></div>
-                        <span className="text-2xl text-royal-gold animate-spin-slow">✦</span>
-                        <div className="h-[1px] w-12 md:w-32 bg-gradient-to-l from-transparent to-royal-gold"></div>
+                <div className="hero-subtitle opacity-0 max-w-4xl mx-auto relative cursor-default px-4">
+                    <div className="flex items-center justify-center gap-4 md:gap-6 mb-4">
+                        <div className="h-[1px] w-8 md:w-32 bg-gradient-to-r from-transparent to-royal-gold"></div>
+                        <span className="text-xl md:text-2xl text-royal-gold animate-spin-slow">✦</span>
+                        <div className="h-[1px] w-8 md:w-32 bg-gradient-to-l from-transparent to-royal-gold"></div>
                     </div>
 
-                    <p className="text-2xl md:text-4xl text-off-white font-serif tracking-[0.1em] uppercase mb-12 drop-shadow-lg">
+                    <p className="text-xl md:text-4xl text-off-white font-serif tracking-[0.1em] uppercase mb-8 md:mb-12 drop-shadow-lg text-center leading-relaxed">
                         "नास्त्युद्धतसमं बलम | नास्ति बुद्धिसमं सुखम ||"
                     </p>
                     <p className="text-sm md:text-base text-royal-gold/80 font-light tracking-[0.3em] uppercase">
@@ -152,7 +152,7 @@ export default function LandingHero() {
             </div>
 
             {/* MOTO SECTION */}
-            <div className="py-32 px-6 relative parallax-section overflow-hidden">
+            <div className="py-24 md:py-32 px-6 relative parallax-section overflow-hidden">
                 <video
                     className="absolute inset-0 w-full h-full object-cover"
                     autoPlay
@@ -166,14 +166,14 @@ export default function LandingHero() {
 
                 <div className="container mx-auto max-w-5xl text-center relative z-10">
                     <SectionSeparator />
-                    <h2 className="reveal-card text-4xl md:text-6xl font-serif text-white mb-16">The Philosophy</h2>
-                    <div className="reveal-card relative p-12 border-2 border-royal-gold/10 bg-white/5 backdrop-blur-sm shadow-[0_0_50px_rgba(0,0,0,0.5)] transform hover:scale-[1.02] transition-transform duration-500">
+                    <h2 className="reveal-card text-3xl md:text-6xl font-serif text-white mb-10 md:mb-16">The Philosophy</h2>
+                    <div className="reveal-card relative p-8 md:p-12 border-2 border-royal-gold/10 bg-white/5 backdrop-blur-sm shadow-[0_0_50px_rgba(0,0,0,0.5)] transform hover:scale-[1.02] transition-transform duration-500">
                         <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-royal-gold"></div>
                         <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-royal-gold"></div>
                         <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-royal-gold"></div>
                         <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-royal-gold"></div>
 
-                        <p className="text-xl md:text-2xl text-off-white leading-loose font-serif italic text-center">
+                        <p className="text-lg md:text-2xl text-off-white leading-loose font-serif italic text-center">
                             "We don’t just build systems; we curate legacies. In a world of fleeting trends, we offer timeless grandeur.
                             Our goal is to forge a digital dominion that stands as a testament to your prestige."
                         </p>
@@ -183,14 +183,14 @@ export default function LandingHero() {
             </div>
 
             {/* PROCESS SECTION */}
-            <div className="py-40 bg-gradient-to-b from-rich-black to-velvet-red/5 border-y border-royal-gold/10 relative overflow-hidden">
+            <div className="py-24 md:py-40 bg-gradient-to-b from-rich-black to-velvet-red/5 border-y border-royal-gold/10 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(212,175,55,0.05)_0%,_transparent_60%)] pointer-events-none"></div>
 
                 <div className="container mx-auto px-6 relative z-10">
-                    <div className="text-center mb-32">
+                    <div className="text-center mb-20 md:mb-32">
                         <SectionSeparator />
-                        <h2 className="reveal-card text-5xl md:text-7xl font-serif text-transparent bg-clip-text bg-gradient-to-b from-imperial-gold via-royal-gold to-bronze mb-6">The Royal Standard</h2>
-                        <p className="reveal-card text-xl text-gray-400 font-light tracking-widest uppercase">The Path to Sovereignty</p>
+                        <h2 className="reveal-card text-4xl md:text-7xl font-serif text-transparent bg-clip-text bg-gradient-to-b from-imperial-gold via-royal-gold to-bronze mb-6">The Royal Standard</h2>
+                        <p className="reveal-card text-lg md:text-xl text-gray-400 font-light tracking-widest uppercase">The Path to Sovereignty</p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-24 relative">
@@ -253,11 +253,11 @@ export default function LandingHero() {
             </div>
 
             {/* SIGNATURE SERVICES */}
-            <div className="py-40 px-6 relative bg-texture-pattern overflow-hidden">
+            <div className="py-24 md:py-40 px-6 relative bg-texture-pattern overflow-hidden">
                 <div className="container mx-auto max-w-6xl relative z-10">
-                    <h2 className="reveal-card text-center text-5xl md:text-7xl font-serif text-antique-gold mb-40 tracking-wider">Signature Services</h2>
+                    <h2 className="reveal-card text-center text-4xl md:text-7xl font-serif text-antique-gold mb-20 md:mb-40 tracking-wider">Signature Services</h2>
 
-                    <div className="space-y-40">
+                    <div className="space-y-24 md:space-y-40">
                         {[
                             { id: "01", title: "Bespoke Web Architecture", desc: "We construct digital palaces. Every pixel is placed with intent, every interaction designed for dignity and grace.", align: "left" },
                             { id: "02", title: "Imperial Marketing Strategy", desc: "Commanding attention in a crowded kingdom. We deploy campaigns that act as royal decrees—unignorable and absolute.", align: "right" },
@@ -265,14 +265,14 @@ export default function LandingHero() {
                         ].map((s, i) => (
                             <div key={i} className={`reveal-card flex flex-col ${s.align === 'right' ? 'md:items-end text-right' : 'md:items-start text-left'} relative group`}>
                                 {/* Glass Card Background */}
-                                <div className={`absolute -inset-10 bg-white/5 backdrop-blur-sm rounded-lg -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ${s.align === 'right' ? 'origin-right' : 'origin-left'} transform group-hover:scale-105`}></div>
+                                <div className={`absolute -inset-6 md:-inset-10 bg-white/5 backdrop-blur-sm rounded-lg -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ${s.align === 'right' ? 'origin-right' : 'origin-left'} transform group-hover:scale-105`}></div>
 
                                 {/* Watermark Number */}
-                                <div className={`absolute top-1/2 -translate-y-1/2 ${s.align === 'right' ? '-left-20' : '-right-20'} text-[12rem] font-serif text-royal-gold/5 pointer-events-none select-none transition-transform duration-1000 group-hover:scale-110 group-hover:text-royal-gold/10`}>
+                                <div className={`absolute top-1/2 -translate-y-1/2 ${s.align === 'right' ? '-left-10 md:-left-20' : '-right-10 md:-right-20'} text-[6rem] md:text-[12rem] font-serif text-royal-gold/5 pointer-events-none select-none transition-transform duration-1000 group-hover:scale-110 group-hover:text-royal-gold/10`}>
                                     {s.id}
                                 </div>
 
-                                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 relative inline-block pb-4 z-10">
+                                <h3 className="text-2xl md:text-6xl font-serif text-white mb-6 md:mb-8 relative inline-block pb-4 z-10">
                                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-200 to-gray-400 group-hover:from-imperial-gold group-hover:via-royal-gold group-hover:to-bronze transition-all duration-700">
                                         {s.title}
                                     </span>
@@ -280,7 +280,7 @@ export default function LandingHero() {
                                     <span className={`absolute bottom-0 ${s.align === 'left' ? 'left-0' : 'right-0'} w-0 h-[3px] bg-royal-gold group-hover:w-full transition-all duration-1000 ease-in-out`}></span>
                                 </h3>
 
-                                <p className="text-xl md:text-2xl text-gray-400 max-w-2xl leading-relaxed font-light group-hover:text-gray-200 transition-colors duration-500 z-10">
+                                <p className="text-lg md:text-2xl text-gray-400 max-w-2xl leading-relaxed font-light group-hover:text-gray-200 transition-colors duration-500 z-10">
                                     {s.desc}
                                 </p>
                             </div>
@@ -290,7 +290,7 @@ export default function LandingHero() {
             </div>
 
             {/* FOUNDERS SECTION */}
-            <div className="py-40 relative border-t border-royal-gold/30 overflow-hidden">
+            <div className="py-24 md:py-40 relative border-t border-royal-gold/30 overflow-hidden">
                 <video
                     className="absolute inset-0 w-full h-full object-cover"
                     autoPlay
@@ -303,9 +303,9 @@ export default function LandingHero() {
                 <div className="absolute inset-0 bg-black/85"></div>
 
                 <div className="container mx-auto px-6 relative z-10">
-                    <div className="text-center mb-24">
+                    <div className="text-center mb-16 md:mb-24">
                         <SectionSeparator />
-                        <h2 className="reveal-card text-5xl md:text-7xl font-serif text-white mb-6">The Founders</h2>
+                        <h2 className="reveal-card text-4xl md:text-7xl font-serif text-white mb-6">The Founders</h2>
                         <p className="reveal-card text-xl text-gray-300 font-light max-w-2xl mx-auto">
                             "Preserving the sanctity of connection. We bond tradition with tomorrow, ensuring your legacy echoes through the digital ages."
                         </p>

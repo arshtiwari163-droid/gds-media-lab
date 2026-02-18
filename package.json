@@ -19,6 +19,7 @@
     "@react-three/postprocessing": "^3.0.4",
     "@types/three": "^0.182.0",
     "autoprefixer": "^10.4.23",
+    "framer-motion": "^12.34.1",
     "gsap": "^3.14.2",
     "lenis": "^1.3.17",
     "lucide-react": "^0.563.0",

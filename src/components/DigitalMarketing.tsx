@@ -148,13 +148,13 @@ const EquipmentIcon = ({ icon: Icon, label, desc }: any) => (
 
 export default function DigitalMarketing() {
     return (
-        <section className="relative z-10 min-h-screen bg-transparent text-white py-24">
+        <section className="relative z-10 min-h-screen bg-transparent text-white py-16 md:py-24">
             <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-royal-gold/30 to-transparent"></div>
 
             <div className="container mx-auto px-6">
-                <div className="text-center mb-24">
-                    <h2 className="text-5xl md:text-7xl font-serif text-transparent bg-clip-text bg-gradient-to-br from-royal-gold to-bronze mb-6">Royal Archives</h2>
-                    <p className="text-xl text-gray-400 font-light tracking-widest uppercase">Evidence of our dominion</p>
+                <div className="text-center mb-16 md:mb-24">
+                    <h2 className="text-4xl md:text-7xl font-serif text-transparent bg-clip-text bg-gradient-to-br from-royal-gold to-bronze mb-4 md:mb-6">Royal Archives</h2>
+                    <p className="text-lg md:text-xl text-gray-400 font-light tracking-widest uppercase">Evidence of our dominion</p>
                 </div>
 
                 {/* POST SAMPLES (2 Portrait, 2 Landscape) */}
@@ -270,12 +270,12 @@ export default function DigitalMarketing() {
 
 
                 {/* ARSENAL */}
-                <div className="bg-gradient-to-b from-rich-black/80 to-midnight-blue/20 p-12 lg:p-24 border border-royal-gold/10 relative overflow-hidden backdrop-blur-sm">
-                    <div className="absolute top-0 left-0 w-32 h-32 border-t-4 border-l-4 border-royal-gold/20"></div>
-                    <div className="absolute bottom-0 right-0 w-32 h-32 border-b-4 border-r-4 border-royal-gold/20"></div>
+                <div className="bg-gradient-to-b from-rich-black/80 to-midnight-blue/20 p-8 md:p-12 lg:p-24 border border-royal-gold/10 relative overflow-hidden backdrop-blur-sm">
+                    <div className="absolute top-0 left-0 w-20 h-20 md:w-32 md:h-32 border-t-4 border-l-4 border-royal-gold/20"></div>
+                    <div className="absolute bottom-0 right-0 w-20 h-20 md:w-32 md:h-32 border-b-4 border-r-4 border-royal-gold/20"></div>
 
-                    <h2 className="text-4xl md:text-5xl font-serif text-center text-off-white mb-20 relative z-10">Our Arsenal</h2>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 relative z-10">
+                    <h2 className="text-3xl md:text-5xl font-serif text-center text-off-white mb-12 md:mb-20 relative z-10">Our Arsenal</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 relative z-10">
                         <EquipmentIcon icon={Camera} label="Cinema Line" desc="Sony FX3 / A7SIII" />
                         <EquipmentIcon icon={Monitor} label="Sonic Fidelity" desc="Rode NTG3 / Shure SM7B" />
                         <EquipmentIcon icon={Video} label="Illumination" desc="Aputure 600d / Amaran" />
