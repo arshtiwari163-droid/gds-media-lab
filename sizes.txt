@@ -1,0 +1,161 @@
+ Volume in drive C is OS
+ Volume Serial Number is 0D20-F430
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo
+
+15-02-2026  04:51        24,337,840 winged angel statue 3d model.glb
+               1 File(s)     24,337,840 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\dist
+
+15-02-2026  04:51        17,899,551 background.mp4
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\dist
+
+15-02-2026  04:51        46,676,368 logo.glb
+               2 File(s)     64,575,919 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\dist\assets\images
+
+15-02-2026  04:51        63,395,133 rl1.mp4
+15-02-2026  04:51        73,837,205 rr2.mp4
+               2 File(s)    137,232,338 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\dist\assets\models
+
+15-02-2026  04:51        18,079,388 camera.glb
+15-02-2026  04:51        22,132,728 handbag.glb
+15-02-2026  04:51        24,121,472 mythical_dancer.glb
+               3 File(s)     64,333,588 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\dist\assets\videos
+
+15-02-2026  04:51       114,863,145 0209.mp4
+15-02-2026  04:51         7,989,845 0215_2.mp4
+15-02-2026  04:51           768,804 collection-bg.mp4
+15-02-2026  04:51        50,874,990 founder-bg.mp4
+15-02-2026  22:27         7,519,172 hp1.mp4
+15-02-2026  04:51         6,296,044 hp2.mp4
+15-02-2026  04:51        26,756,800 hpl1.mp4
+15-02-2026  04:51       116,115,678 instagram-bg.mp4
+15-02-2026  04:51        13,291,979 kk1.mp4
+15-02-2026  04:51         1,549,954 lo1.mp4
+15-02-2026  04:51        48,931,748 philosophy-bg.mp4
+              11 File(s)    394,958,159 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\node_modules\.cache\gh-pages\https!github.com!arshtiwari163-droid!GURUDAS_DIGITAL_SOLUTION.git
+
+15-02-2026  05:48        17,899,551 background.mp4
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\node_modules\.cache\gh-pages\https!github.com!arshtiwari163-droid!GURUDAS_DIGITAL_SOLUTION.git
+
+15-02-2026  05:48        46,676,368 logo.glb
+               2 File(s)     64,575,919 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\node_modules\.cache\gh-pages\https!github.com!arshtiwari163-droid!GURUDAS_DIGITAL_SOLUTION.git\assets\images
+
+15-02-2026  05:48        63,395,133 rl1.mp4
+15-02-2026  05:48       412,696,980 rr1.mp4
+15-02-2026  05:48        73,837,205 rr2.mp4
+               3 File(s)    549,929,318 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\node_modules\.cache\gh-pages\https!github.com!arshtiwari163-droid!GURUDAS_DIGITAL_SOLUTION.git\assets\models
+
+15-02-2026  05:48        24,337,840 angel.glb
+15-02-2026  05:48        18,079,388 camera.glb
+15-02-2026  05:48        22,132,728 handbag.glb
+15-02-2026  05:48        24,121,472 mythical_dancer.glb
+               4 File(s)     88,671,428 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\node_modules\.cache\gh-pages\https!github.com!arshtiwari163-droid!GURUDAS_DIGITAL_SOLUTION.git\assets\videos
+
+15-02-2026  05:48       114,863,145 0209.mp4
+15-02-2026  05:48         7,989,845 0215_2.mp4
+15-02-2026  05:48           768,804 collection-bg.mp4
+15-02-2026  05:48        50,874,990 founder-bg.mp4
+15-02-2026  05:48        26,109,124 hp1.mp4
+15-02-2026  05:48         6,296,044 hp2.mp4
+15-02-2026  05:48        26,756,800 hpl1.mp4
+15-02-2026  05:48       116,115,678 instagram-bg.mp4
+15-02-2026  05:48        13,291,979 kk1.mp4
+15-02-2026  05:48         1,549,954 lo1.mp4
+15-02-2026  05:48        48,931,748 philosophy-bg.mp4
+              11 File(s)    413,548,111 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\node_modules\.cache\gh-pages\https!github.com!arshtiwari163-droid!GURUDAS_DIGITAL_SOLUTION_.git
+
+16-02-2026  12:08        17,899,551 background.mp4
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\node_modules\.cache\gh-pages\https!github.com!arshtiwari163-droid!GURUDAS_DIGITAL_SOLUTION_.git
+
+16-02-2026  12:08        46,676,368 logo.glb
+               2 File(s)     64,575,919 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\node_modules\.cache\gh-pages\https!github.com!arshtiwari163-droid!GURUDAS_DIGITAL_SOLUTION_.git\assets\images
+
+16-02-2026  12:08        63,395,133 rl1.mp4
+16-02-2026  12:08        73,837,205 rr2.mp4
+               2 File(s)    137,232,338 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\node_modules\.cache\gh-pages\https!github.com!arshtiwari163-droid!GURUDAS_DIGITAL_SOLUTION_.git\assets\models
+
+16-02-2026  12:08        18,079,388 camera.glb
+16-02-2026  12:08        22,132,728 handbag.glb
+16-02-2026  12:08        24,121,472 mythical_dancer.glb
+               3 File(s)     64,333,588 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\node_modules\.cache\gh-pages\https!github.com!arshtiwari163-droid!GURUDAS_DIGITAL_SOLUTION_.git\assets\videos
+
+16-02-2026  12:08       114,863,145 0209.mp4
+16-02-2026  12:08         7,989,845 0215_2.mp4
+16-02-2026  12:08           768,804 collection-bg.mp4
+16-02-2026  12:08        50,874,990 founder-bg.mp4
+16-02-2026  12:08         7,519,172 hp1.mp4
+16-02-2026  12:08         6,296,044 hp2.mp4
+16-02-2026  12:08        26,756,800 hpl1.mp4
+16-02-2026  12:08       116,115,678 instagram-bg.mp4
+16-02-2026  12:08        13,291,979 kk1.mp4
+16-02-2026  12:08         1,549,954 lo1.mp4
+16-02-2026  12:08        48,931,748 philosophy-bg.mp4
+              11 File(s)    394,958,159 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\public
+
+15-02-2026  04:51        17,899,551 background.mp4
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\public
+
+15-02-2026  04:51        46,676,368 logo.glb
+               2 File(s)     64,575,919 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\public\assets\images
+
+15-02-2026  04:51        63,395,133 rl1.mp4
+15-02-2026  04:51        73,837,205 rr2.mp4
+               2 File(s)    137,232,338 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\public\assets\models
+
+15-02-2026  04:51        18,079,388 camera.glb
+15-02-2026  04:51        22,132,728 handbag.glb
+15-02-2026  04:51        24,121,472 mythical_dancer.glb
+               3 File(s)     64,333,588 bytes
+
+ Directory of C:\Users\Harpreet\OneDrive\Desktop\lolo\public\assets\videos
+
+15-02-2026  04:51       114,863,145 0209.mp4
+15-02-2026  04:51         7,989,845 0215_2.mp4
+15-02-2026  04:51           768,804 collection-bg.mp4
+15-02-2026  04:51        50,874,990 founder-bg.mp4
+15-02-2026  22:27         7,519,172 hp1.mp4
+15-02-2026  04:51         6,296,044 hp2.mp4
+15-02-2026  04:51        26,756,800 hpl1.mp4
+15-02-2026  04:51       116,115,678 instagram-bg.mp4
+15-02-2026  04:51        13,291,979 kk1.mp4
+15-02-2026  04:51         1,549,954 lo1.mp4
+15-02-2026  04:51        48,931,748 philosophy-bg.mp4
+              11 File(s)    394,958,159 bytes
+
+     Total Files Listed:
+              75 File(s)  3,124,362,628 bytes
+               0 Dir(s)   8,239,812,608 bytes free

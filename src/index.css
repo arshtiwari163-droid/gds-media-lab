@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #0A0A0A;
+  /* Rich Black */
+  color: #F5F5DC;
+  /* Off White */
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  background-color: #050505;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(75, 0, 130, 0.2) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(128, 0, 32, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.05) 0%, rgba(5, 5, 5, 0) 60%),
+    repeating-linear-gradient(45deg, rgba(20, 20, 20, 0.3) 0px, rgba(20, 20, 20, 0.3) 1px, transparent 1px, transparent 4px);
+  color: #FAF9F6;
+}
+
+/* Ornate Text Selection */
+::selection {
+  background: #9D00FF;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #4B0082, #D4AF37, #800020);
+  border-radius: 5px;
+  border: 2px solid #050505;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #9D00FF, #FFD700, #DC143C);
+}
