@@ -26,7 +26,7 @@ export default function Navigation() {
     return (
         <>
             {/* Mobile Menu Button - Visible only on small screens */}
-            <div className="fixed top-4 right-4 z-50 md:hidden mix-blend-difference">
+            <div className="fixed top-4 right-4 z-50 lg:hidden mix-blend-difference">
                 <button
                     onClick={toggleMenu}
                     className="p-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white shadow-lg active:scale-95 transition-transform"
@@ -43,7 +43,7 @@ export default function Navigation() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -20 }}
                         transition={{ duration: 0.3 }}
-                        className="fixed inset-0 z-40 bg-rich-black/95 backdrop-blur-xl flex flex-col items-center justify-center space-y-8 md:hidden px-6"
+                        className="fixed inset-0 z-40 bg-rich-black/95 backdrop-blur-xl flex flex-col items-center justify-center space-y-8 lg:hidden px-6 overflow-y-auto"
                     >
                         <Link
                             to="/"
@@ -68,7 +68,7 @@ export default function Navigation() {
             </AnimatePresence>
 
             {/* Desktop Floating Navigation - Hidden on mobile */}
-            <div className="hidden md:flex fixed top-8 right-8 z-50 justify-end pointer-events-none mix-blend-screen">
+            <div className="hidden lg:flex fixed top-8 right-8 z-50 justify-end pointer-events-none mix-blend-screen">
                 <nav className="relative pointer-events-auto group perspective-1000">
                     {/* Main Crystal Container */}
                     <div
