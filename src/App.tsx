@@ -1,7 +1,7 @@
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect, lazy, Suspense } from 'react';
 import Lenis from 'lenis';
-import Visualizer from './components/Visualizer';
+const Visualizer = lazy(() => import('./components/Visualizer'));
 import Navigation from './components/Navigation';
 import AudioPlayer from './components/AudioPlayer';
 import { AudioProvider } from './context/AudioContext';
@@ -64,7 +64,9 @@ function App() {
         <AudioProvider>
           <main className="bg-rich-black text-off-white selection:bg-royal-gold selection:text-black font-sans min-h-screen flex flex-col">
             {/* 3D Background - Persists across all routes */}
-            <Visualizer />
+            <Suspense fallback={null}>
+              <Visualizer />
+            </Suspense>
 
             {/* Navigation */}
             <Navigation />

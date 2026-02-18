@@ -2,6 +2,7 @@ import { useLayoutEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ArrowDown, Instagram, Mail } from 'lucide-react';
+import LazyBackgroundVideo from './LazyBackgroundVideo';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -153,15 +154,11 @@ export default function LandingHero() {
 
             {/* MOTO SECTION */}
             <div className="py-24 md:py-32 px-6 relative parallax-section overflow-hidden">
-                <video
+                <LazyBackgroundVideo
                     className="absolute inset-0 w-full h-full object-cover"
+                    src={`${import.meta.env.BASE_URL}assets/videos/philosophy-bg.mp4`}
                     autoPlay
-                    loop
-                    muted
-                    playsInline
-                >
-                    <source src={`${import.meta.env.BASE_URL}assets/videos/philosophy-bg.mp4`} type="video/mp4" />
-                </video>
+                />
                 <div className="absolute inset-0 bg-black/80"></div>
 
                 <div className="container mx-auto max-w-5xl text-center relative z-10">
@@ -291,15 +288,11 @@ export default function LandingHero() {
 
             {/* FOUNDERS SECTION */}
             <div className="py-24 md:py-40 relative border-t border-royal-gold/30 overflow-hidden">
-                <video
+                <LazyBackgroundVideo
                     className="absolute inset-0 w-full h-full object-cover"
+                    src={`${import.meta.env.BASE_URL}assets/videos/founder-bg.mp4`}
                     autoPlay
-                    loop
-                    muted
-                    playsInline
-                >
-                    <source src={`${import.meta.env.BASE_URL}assets/videos/founder-bg.mp4`} type="video/mp4" />
-                </video>
+                />
                 <div className="absolute inset-0 bg-black/85"></div>
 
                 <div className="container mx-auto px-6 relative z-10">
