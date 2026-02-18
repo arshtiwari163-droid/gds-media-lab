@@ -11,9 +11,9 @@ gsap.registerPlugin(ScrollTrigger);
 const TierSection = ({ title, subtitle, features, description, color, align = 'left' }: any) => {
     return (
         <div className={`tier-section py-32 px-6 flex flex-col md:flex-row items-center gap-16 ${align === 'right' ? 'md:flex-row-reverse' : ''}`}>
-            <div className="flex-1 text-center md:text-left content-col">
-                <h3 className={`text-5xl md:text-7xl font-serif mb-4 md:mb-6 ${color} drop-shadow-sm`}>{title}</h3>
-                <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-white/60 mb-6 md:mb-10 font-medium">{subtitle}</p>
+            <div className="flex-1 text-center md:text-left content-col break-words">
+                <h3 className={`text-3xl sm:text-4xl md:text-7xl font-serif mb-4 md:mb-6 ${color} drop-shadow-sm break-words`}>{title}</h3>
+                <p className="text-[10px] sm:text-xs md:text-sm uppercase tracking-[0.2em] md:tracking-[0.3em] text-white/60 mb-6 md:mb-10 font-medium">{subtitle}</p>
 
                 <p className="text-gray-300 leading-loose mb-10 max-w-xl text-lg font-light border-l-2 border-white/10 pl-6">
                     {description}

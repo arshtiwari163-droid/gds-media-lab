@@ -271,11 +271,14 @@ export default function DigitalMarketing() {
 
                 {/* ARSENAL */}
                 <div className="bg-gradient-to-b from-rich-black/80 to-midnight-blue/20 p-8 md:p-12 lg:p-24 border border-royal-gold/10 relative overflow-hidden backdrop-blur-sm">
-                    <div className="absolute top-0 left-0 w-20 h-20 md:w-32 md:h-32 border-t-4 border-l-4 border-royal-gold/20"></div>
-                    <div className="absolute bottom-0 right-0 w-20 h-20 md:w-32 md:h-32 border-b-4 border-r-4 border-royal-gold/20"></div>
+                    {/* Decorative corners - adjusted size for mobile */}
+                    <div className="absolute top-0 left-0 w-12 h-12 md:w-32 md:h-32 border-t-2 md:border-t-4 border-l-2 md:border-l-4 border-royal-gold/20"></div>
+                    <div className="absolute bottom-0 right-0 w-12 h-12 md:w-32 md:h-32 border-b-2 md:border-b-4 border-r-2 md:border-r-4 border-royal-gold/20"></div>
 
-                    <h2 className="text-3xl md:text-5xl font-serif text-center text-off-white mb-12 md:mb-20 relative z-10">Our Arsenal</h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 relative z-10">
+                    <h2 className="text-3xl md:text-5xl font-serif text-center text-off-white mb-10 md:mb-20 relative z-10 px-4">Our Arsenal</h2>
+
+                    {/* Grid wrapper with added padding to prevent edge clipping */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 relative z-10 px-2">
                         <EquipmentIcon icon={Camera} label="Cinema Line" desc="Sony FX3 / A7SIII" />
                         <EquipmentIcon icon={Monitor} label="Sonic Fidelity" desc="Rode NTG3 / Shure SM7B" />
                         <EquipmentIcon icon={Video} label="Illumination" desc="Aputure 600d / Amaran" />

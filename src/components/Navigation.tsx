@@ -26,12 +26,12 @@ export default function Navigation() {
     return (
         <>
             {/* Mobile Menu Button - Visible only on small screens */}
-            <div className="fixed top-6 right-6 z-50 md:hidden mix-blend-difference">
+            <div className="fixed top-4 right-4 z-50 md:hidden mix-blend-difference">
                 <button
                     onClick={toggleMenu}
-                    className="p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white shadow-lg active:scale-95 transition-transform"
+                    className="p-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white shadow-lg active:scale-95 transition-transform"
                 >
-                    {isOpen ? <X size={24} /> : <Menu size={24} />}
+                    {isOpen ? <X size={20} /> : <Menu size={20} />}
                 </button>
             </div>
 
@@ -43,7 +43,7 @@ export default function Navigation() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -20 }}
                         transition={{ duration: 0.3 }}
-                        className="fixed inset-0 z-40 bg-rich-black/95 backdrop-blur-xl flex flex-col items-center justify-center space-y-8 md:hidden"
+                        className="fixed inset-0 z-40 bg-rich-black/95 backdrop-blur-xl flex flex-col items-center justify-center space-y-8 md:hidden px-6"
                     >
                         <Link
                             to="/"
@@ -58,7 +58,7 @@ export default function Navigation() {
                                 key={link.path}
                                 to={link.path}
                                 onClick={toggleMenu}
-                                className={`text-2xl uppercase tracking-[0.2em] font-light transition-colors ${isActive(link.path) ? 'text-royal-gold' : 'text-gray-400 hover:text-white'}`}
+                                className={`text-xl uppercase tracking-[0.2em] font-light transition-colors ${isActive(link.path) ? 'text-royal-gold' : 'text-gray-400 hover:text-white'}`}
                             >
                                 {link.label}
                             </Link>
